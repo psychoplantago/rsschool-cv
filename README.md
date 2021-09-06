@@ -1,1 +1,1 @@
-https://psychoplantago.github.io/rsschool-cv/cv
+https://psychoplantago.github.io/rsschool-cv/
