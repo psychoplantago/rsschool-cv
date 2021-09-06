@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+<body>
+  <div class="container">
+        <div class="left__half">
+          <div class="education">
+            <div class="title__line__upper"></div>
+            <div class="title">Education</div>
+            <div class="title__line__lower"></div>
+            <div class="education__item">
+              <p class="name p__purple"><i class="fas fa-graduation-cap"></i>Rolling scopes school (stage 0)</p>
+              <p class="date p__purple">2021</p>
+              <p class="description">The Rolling Scopes is an independent international community of developers (mainly JavaScript / Front-end / iOS / Android), organized in 2013. </p>
+            </div>
+            <div class="education__item">
+              <p class="name p__purple"><i class="fas fa-graduation-cap"></i>Современный JavaScript + Полный курс по 
+                JavaScript (udemy)</p>
+              <p class="date p__purple">2021</p>
+              <p class="description">Short courses for basic understanding of JavaScript.</p>
+            </div>
+            <div class="education__item">
+              <p class="name p__purple"><i class="fas fa-graduation-cap"></i>vinnitsa national medical university</p>
+              <p class="date p__purple">2018-2023</p>
+              <p class="description">Main higher education.</p>
+            </div>
+          </div>
+          <div class="code__experience">
+            <div class="title__line__upper"></div>
+            <div class="title">Code Experience</div>
+            <div class="title__line__lower"></div>
+            <p class="code__p p__purple">
+              EXAMPLE OF CODE FROM CODEWARS.COM
+            </p>
+            <p class="code__p p__italic">
+              Given two numbers and an arithmetic operator (the name of it, as a string), return the result of the two numbers having that operator used on them.
+              a and b will both be positive integers, and a will always be the first number in the operation, and b always the second.
+              The four operators are "add", "subtract", "divide", "multiply".
+            </p>
+            <p class="code__p p__white">
+              MY SOLUTION:
+            </p>
+            <div class="code__p">
+              
+              <pre>
+        const arithmetic = (a, b, operator) => {
+        switch (operator) {
+            case "add": return a + b;
+            case "subtract": return a - b;
+            case "multiply": return a * b;
+            case "divide": return a / b;
+            default: throw new RangeError(`Not supported operator '${operator}'`);
+          }
+        }
+              </pre>
+            </div>
+          </div>
+        </div>
+        <div class="right__half">
+          <div class="purple">
+            <header>OLENA SUSHAN</header>
+          <div class="profile__photo">
+            <img src="photo_2021-09-01_10-50-53.jpg" alt="my__photo" class="profile__img">
+          </div>
+          <div class="title__line__upper__white"></div>
+          <div class="title">Front-End Developer</div>
+          <div class="title__line__lower__white"></div>
+          <div class="skills">
+            <ul>
+              <li><i class="fab fa-html5"></i>HTML</li>
+              <li><i class="fab fa-css3-alt"></i>CSS</li>
+              <li><i class="fab fa-js-square"></i>JavaScript</li>
+              <li><i class="fab fa-figma"></i>Figma</li>
+            </ul>
+          </div>
+          <div class="information"></div>
+          <div class="summary">
+            <p class="code__p">
+              I’m beginner Front-End developer with medical background and experience in scientific research.
+            </p>
+            <p class="code__p">
+              My two greatest passions are creating beautiful and user-friendly interfaces and psychotherapy.
+            </p>
+            <p class="code__p">
+              Feel free to contact me if you have any ideas about non-profit projects in Medicine/ Science/
+            </p>
+          </div>
+          <nav>
+            <div class="title__line__upper__white"></div>
+            <div class="title">My Contacts</div>
+            <div class="title__line__lower__white"></div>
+            <ul class="navigation">
+              <li><i class="fas fa-envelope-open-text"></i>psychoplantago@gmail.com</li>
+              <li><i class="fas fa-phone-square"></i>+380 680431802</li>
+              <li><i class="fab fa-telegram"></i>psychoplantago</li>
+              <li><i class="fab fa-instagram"></i>psychoplantago</li>
+            </ul>
+          </nav>
+          </div>
+        </div>
+      <footer>
+        <a href="https://rs.school/js/"><div class="school__logo"> <img src="rs_school_js.svg" width="200" alt="logo"> </div> </a>
+        <div class="creator">
+          <p class="creator__p">by Olena Sushan, 2021</p>
+          <!-- <p class="creator__p">2021</p> -->
+        </div>
+        <a href="https://github.com/psychoplantago"><div class="github__logo"><i class="fab fa-github-square logo__github"></i></div></a>
+      </footer> 
+      
+  </div>
+</body>
+</html>
